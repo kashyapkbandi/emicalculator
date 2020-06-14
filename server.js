@@ -67,7 +67,4 @@ app.set('view engine','hbs');
 
 
 
-app.listen(port,()=>{
-    console.log(`Listening to ${port}......`);
-
-});
+app.listen(port);
