@@ -25,7 +25,7 @@ app.set('views',viewPath);
 
 
 app.get('',(req,res)=>{
-res.render('index');
+res.render('louthost');
 });
 
 
