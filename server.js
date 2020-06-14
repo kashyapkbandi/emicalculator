@@ -44,7 +44,7 @@ conn.login(req.body.username, req.body.password, function(err, userInfo) {
 if (err) { return console.error(err); }
 // Now you can get the access token and instance URL information.
 // Save them to establish connection next time.
-// console.log(conn.accessToken);
+console.log(conn.accessToken);
 // console.log(conn.instanceUrl);
 // // logged in user property
 // console.log("User ID: " + userInfo.id);
